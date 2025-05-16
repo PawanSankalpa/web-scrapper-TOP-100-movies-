@@ -17,18 +17,25 @@ This Python project scrapes the Top 100 Movies of All Time from an archived vers
 ## How to Run
 
 1. Install the required libraries:
-   pip install beautifulsoup4 requests
+```bash
+pip install beautifulsoup4 requests
+```
 
 2. Run the script:
-   python movie_scraper.py
+```bash
+python movie_scraper.py
+```
+   
 
 ## Output
 
 The result will be saved in a file named:
-movies.txt
+***movies.txt***
 
 Each line will contain one movie title.
 
 ## Source
 
-URL: https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/
+```URL:
+   https://web.archive.org/web/20200518073855/https://www.empireonline.com/movies/features/best-movies-2/
+```
